@@ -15,7 +15,7 @@ jobs:
     inputs:  
       testSelector: 'testAssemblies'     
       testAssemblyVer2: |
-          **\*FlakyTestProject*.dll'
+          **\*FlakyTestProject*.dll
           !**\obj\
       rerunFailedTests: true
       searchFolder: '$(System.DefaultWorkingDirectory)\bin\Debug\'
