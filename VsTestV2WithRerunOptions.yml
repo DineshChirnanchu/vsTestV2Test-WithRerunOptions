@@ -14,7 +14,7 @@ jobs:
       testSelector: 'testAssemblies'     
       testAssemblyVer2: |
           **\*FlakyTestProject*.dll
-          !**\obj\
+          !**\obj\**
       rerunFailedTests: true
       searchFolder: '$(System.DefaultWorkingDirectory)\bin\Debug\'
       rerunFailedThreshold: 60
